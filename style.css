@@ -198,15 +198,15 @@ h6,
    *
    */
 
-.pic{
-  background:url('screenshot.png') no-repeat center;
+.pic {
+  background: url('screenshot.png') no-repeat center;
 }
 
 .showcase {
   opacity: 1;
   color: #000000;
-  background:url('screenshot.png') no-repeat center;
   margin-bottom: 35px;
+
 }
 
 .showcase h1 {
@@ -274,39 +274,40 @@ a:hover {
   color: #fff;
   padding: 10px;
   overflow: auto;
-  border:#ccc solid 1px;
+  border: #ccc solid 1px;
 }
 
-.comment-meta a{
-  color:#fff;
+.comment-meta a {
+  color: #fff;
 }
 
-.comment-meta img{
-  float:left;
+.comment-meta img {
+  float: left;
   margin-right: 10px;
 }
 
-.comment-reply-link{
-  background:#428bca;
-  color:#fff;
+.comment-reply-link {
+  background: #428bca;
+  color: #fff;
   display: inline-block;
-  padding:10px 15px;
+  padding: 10px 15px;
 }
 
-.comment-form input, .comment-form textarea{
-  width:100%;
-  padding:4px;
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 4px;
   border: #ccc solid 1px;
   margin-bottom: 15px;
 }
 
-.post-gallery{
+.post-gallery {
   background: #333;
-  color:#fff;
+  color: #fff;
   padding: 10px;
   text-align: center;
 }
 
 .post-gallery h2 {
-  color:#fff;
+  color: #fff;
 }

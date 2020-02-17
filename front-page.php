@@ -9,10 +9,10 @@
       <section class="showcase">
 
         <div class="container">
-          <h1>Custom Bootstrap Wordpress Theme</h1>
-          <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam</p>
+          <h1><?php echo get_theme_mod('showcase_heading', 'Custom Bootstrap Wordpress Theme'); ?></h1>
+          <p><?php echo get_theme_mod('showcase_text', 'Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam'); ?></p>
         </div>
-        <a class="btn btn-primary btn-lg mb-3" style="margin-left:41%;">Read More</a>
+        <a href="<?php echo get_theme_mod('button_url', 'https://text.com'); ?>" class="btn btn-primary btn-lg mb-3" style="margin-left:41%;"><?php echo get_theme_mod('button_text', 'Read More'); ?></a>
       </section>
 
       <section class="boxes">
