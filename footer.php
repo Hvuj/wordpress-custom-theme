@@ -1,7 +1,10 @@
 <footer class="blog-footer">
-        <p>&copy <?php echo Date('Y') ?> <?php bloginfo('Name'); ?></p>
+        <p>Copyright &copy Made By Eli Sigal. All rights reserved. <?php echo Date('Y') ?> <?php bloginfo('Name'); ?></p>
         <p>
           <a href="#">Back to top</a>
+        </p>
+        <p>
+          <a href="<?php echo get_theme_mod('btn_url', 'https://github.com/Hvuj/wordpress-custom-theme.git'); ?>" class="btn github btn-lg"><?php echo get_theme_mod('btn_text', 'github link'); ?></a>
         </p>
       </footer>
   <?php wp_footer(); ?>

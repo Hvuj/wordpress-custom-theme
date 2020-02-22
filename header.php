@@ -8,8 +8,8 @@
   <meta name="Description" content="<?php bloginfo('Description'); ?>">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
   <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="<?php wp_enqueue_style('style', get_stylesheet_uri()); ?>">
 
   <title>
     <?php bloginfo('Name'); ?> |
@@ -20,6 +20,9 @@
   <style>
     .showcase {
       background: url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url') . '/img/showcase.png') ?>) no-repeat center center;
+      width:570px;
+      height:298px;
+
     }
   </style>
 </head>
@@ -48,6 +51,18 @@
     </div>
   </div>
 
+  <div class="covermain">
+    <style>
+      .covermain {
+        background: url(<?php echo get_theme_mod('cover_image', get_bloginfo('template_url') . '/img/pic.png') ?>) no-repeat center center;
+      }
+    </style>
+    <div>
+      <h1 class="card-title" id="maincover"><?php echo get_theme_mod('cover_heading', 'Deploy Your Analytics Across All of Your Cloud & On-Premises Environments'); ?></h1>
+    </div>
+    <p class="card-text"><?php echo get_theme_mod('cover_text', 'Complete your digital transformation with Sisense — the only cloud-native analytics platform that delivers scalable, flexible, and robust analytics on any cloud or on-premises environment.'); ?></p>
+  </div>
+
   <div class="container">
     <div class="blog-header">
       <h1 class="blog-title"><?php bloginfo('Name') ?></h1>
@@ -61,3 +76,4 @@
           <?php } ?>
         <?php } ?></p>
     </div>
+    
